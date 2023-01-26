@@ -1,8 +1,7 @@
-// y=ax^2 + bx + c
-// Pass: a, b, c and y solution for x
-
-def main(field a, field b, field c, private field x, private field y) -> bool{
-	field y1 = a*x**2 + b*x + c;
-	assert (y == y1);
+def main(private field age, private field address, field name, field ID) -> bool{
+	field y1 = age*address + name;
+	assert (ID == y1);
 	return true;
 	}
+
+	// ID(86) = age(21)*address(3) + name(23);
