@@ -1,0 +1,9 @@
+// y=ax^2 + bx + c
+// Pass: a, b, c.  And y solution for x
+
+def main(field a, field b, field c, private field x, private field y) -> bool{
+	field y1 = a*x**2 + b*x + c;
+	assert (y == y1);
+	return true;
+	}
+  
